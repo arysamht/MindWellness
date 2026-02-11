@@ -1,0 +1,22 @@
+.breathing-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    margin: 20px auto;
+    transition: transform 4s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.breathing-circle.inhale {
+    transform: scale(1.5);
+}
+
+.breathing-circle.exhale {
+    transform: scale(1);
+}

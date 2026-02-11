@@ -1,0 +1,21 @@
+/* Base Layout and Variables */
+:root {
+    --primary-color: #8B5E99;
+    --primary-hover: #7B4589;
+    --danger-color: #DC2626;
+    --warning-color: #F59E0B;
+    --success-color: #10B981;
+    --bg-color: #F8F7FA;
+    --text-color: #2D3748;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container-fluid {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}

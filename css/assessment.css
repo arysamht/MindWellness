@@ -1,0 +1,286 @@
+/* DASS Assessment Styles - Matching Dashboard Design */
+
+:root {
+    --primary-color: #8B5E99;
+    --primary-hover: #7B4589;
+    --danger-color: #DC2626;
+    --warning-color: #F59E0B;
+    --success-color: #10B981;
+    --bg-color: #F8F7FA;
+    --text-color: #2D3748;
+    --text-muted: #718096;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 1.25rem;
+}
+
+/* Alert Styling */
+.alert {
+    border: none;
+    border-radius: 10px;
+    border-left: 4px solid;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.alert-info {
+    background-color: #E7F5FF;
+    border-left-color: #339AF0;
+    color: #1971C2;
+    font-size: 0.95rem;
+}
+
+.alert-info p {
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+}
+
+/* Rating Scale */
+.rating-scale {
+    background-color: #F8F9FA;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.5rem;
+}
+
+.rating-scale > div {
+    padding: 0.4rem 0.5rem;
+    line-height: 1.3;
+}
+
+/* Progress Bar */
+.progress {
+    height: 8px;
+    background-color: rgba(139, 94, 153, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    transition: width 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-text {
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Question Item Styling */
+.question-item {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Badge Styling */
+.badge {
+    padding: 0.5rem 0.75rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 6px;
+    vertical-align: top;
+}
+
+.question-item p {
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Button Group Styling */
+.btn-group {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.btn-check {
+    display: none;
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    background-color: white;
+    font-weight: 500;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border-width: 1px;
+    transition: all 0.2s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.btn-check:checked + .btn-outline-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Navigation Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-weight: 500;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+    box-shadow: 0 4px 8px rgba(139, 94, 153, 0.3);
+}
+
+.btn-secondary {
+    background-color: #E9ECEF;
+    border-color: #E9ECEF;
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #DEE2E6;
+    border-color: #DEE2E6;
+}
+
+.btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+    font-weight: 500;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #059669;
+    border-color: #059669;
+    box-shadow: 0 4px 8px rgba(16, 185, 129, 0.3);
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Button Container */
+.d-flex.justify-content-between {
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card {
+        border-radius: 10px;
+    }
+    
+    .card-title {
+        font-size: 1.1rem;
+    }
+    
+    .question-item {
+        margin-bottom: 2rem;
+    }
+    
+    .btn-outline-primary {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.9rem;
+    }
+    
+    .d-flex.justify-content-between {
+        flex-direction: column;
+    }
+    
+    .d-flex.justify-content-between button {
+        width: 100%;
+    }
+    
+    .rating-scale {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.4rem;
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
+    
+    .rating-scale > div {
+        padding: 0.3rem 0.4rem;
+    }
+    
+    .alert-info {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+}
+
+/* Background and General Layout */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Stats Cards */
+.mood-trend h3,
+.journal-stats h3,
+.activity-stats h3 {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.bg-primary { background-color: var(--primary-color) !important; }
+.bg-success { background-color: var(--success-color) !important; }
+.bg-warning { background-color: var(--warning-color) !important; }
+.bg-info { background-color: #0dcaf0 !important; }
+

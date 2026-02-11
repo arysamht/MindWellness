@@ -1,0 +1,3051 @@
+[10-Jan-2025 21:28:36 Europe/Berlin] Login request received
+[10-Jan-2025 21:28:36 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:28:36 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:28:36 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 21:28:36 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 21:28:36 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:28:36 Europe/Berlin] Is email: no
+[10-Jan-2025 21:28:36 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 21:28:36 Europe/Berlin] Querying by username: a
+[10-Jan-2025 21:28:36 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:28:36 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:28:36 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:28:36 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:28:36 Europe/Berlin] Password verified successfully
+[10-Jan-2025 21:28:36 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 21:28:36 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [logged_in] => 1
+    [session_id] => 0d60b7345d486951fd2714b6c951978e7c806db69c520a74d4643ac6e9b8a831
+    [username] => a
+)
+
+[10-Jan-2025 21:31:31 Europe/Berlin] Login request received
+[10-Jan-2025 21:31:31 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:31:31 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:31:31 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 21:31:31 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 21:31:31 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:31:31 Europe/Berlin] Is email: no
+[10-Jan-2025 21:31:31 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 21:31:31 Europe/Berlin] Querying by username: a
+[10-Jan-2025 21:31:31 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:31:31 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:31:31 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:31:31 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:31:31 Europe/Berlin] Password verified successfully
+[10-Jan-2025 21:31:31 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 21:31:31 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:31:31 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:31:31 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:34:29 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:34:29 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:35:55 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:35:55 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:35:55 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:35:55 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:35:55 Europe/Berlin] Creating dass_assessments table
+[10-Jan-2025 21:35:55 Europe/Berlin] Table created successfully
+[10-Jan-2025 21:35:55 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:35:55 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:35:55 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:35:55 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:36:31 Europe/Berlin] Login request received
+[10-Jan-2025 21:36:31 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:36:31 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:36:31 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 21:36:31 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 21:36:31 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:36:31 Europe/Berlin] Is email: no
+[10-Jan-2025 21:36:31 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 21:36:31 Europe/Berlin] Querying by username: a
+[10-Jan-2025 21:36:31 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:36:31 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:36:31 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:36:31 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:36:32 Europe/Berlin] Password verified successfully
+[10-Jan-2025 21:36:32 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 21:36:32 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:36:32 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:36:32 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:36:32 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:36:32 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:36:32 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:36:32 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:36:32 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:36:32 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:32 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:38:32 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:38:32 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:32 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:32 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:32 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:32 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:32 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:32 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:38:32 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:38:32 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:32 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:32 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:32 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:32 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:32 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:38:33 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:38:33 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:38:33 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:38:33 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:38:33 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:38:33 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:38:33 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:38:33 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:38:33 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:39:29 Europe/Berlin] Login request received
+[10-Jan-2025 21:39:29 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:39:29 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:39:29 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 21:39:29 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 21:39:29 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:39:29 Europe/Berlin] Is email: no
+[10-Jan-2025 21:39:29 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 21:39:29 Europe/Berlin] Querying by username: a
+[10-Jan-2025 21:39:29 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:39:29 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:39:29 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:39:29 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:39:29 Europe/Berlin] Password verified successfully
+[10-Jan-2025 21:39:29 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 21:39:29 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:39:29 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:39:29 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:39:29 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:39:29 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:39:29 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:39:29 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:39:29 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:39:29 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:39:56 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:39:56 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:39:56 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:39:56 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:39:56 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:39:56 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:39:56 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:39:56 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:39:59 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:39:59 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:39:59 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:39:59 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:39:59 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:39:59 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:39:59 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:39:59 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:40:12 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:40:12 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:40:12 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:40:12 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:40:12 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:40:12 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:40:12 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:40:12 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:40:13 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:40:13 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:40:13 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:40:13 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:40:13 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:40:13 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:40:13 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:40:13 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:42:11 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 23
+[10-Jan-2025 21:42:11 Europe/Berlin] Login request received
+[10-Jan-2025 21:42:11 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:42:11 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:42:11 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 21:42:11 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 21:42:11 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:42:11 Europe/Berlin] Is email: no
+[10-Jan-2025 21:42:11 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 21:42:11 Europe/Berlin] Querying by username: a
+[10-Jan-2025 21:42:11 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:42:11 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:42:11 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:42:11 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:42:11 Europe/Berlin] Password verified successfully
+[10-Jan-2025 21:42:11 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 21:42:11 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:42:17 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 23
+[10-Jan-2025 21:42:17 Europe/Berlin] Login request received
+[10-Jan-2025 21:42:17 Europe/Berlin] POST data: {"username":"a","password":"aaa"}
+[10-Jan-2025 21:42:17 Europe/Berlin] Raw input: {"username":"a","password":"aaa"}
+[10-Jan-2025 21:42:17 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaa
+)
+
+[10-Jan-2025 21:42:17 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 21:42:17 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:42:17 Europe/Berlin] Is email: no
+[10-Jan-2025 21:42:17 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 21:42:17 Europe/Berlin] Querying by username: a
+[10-Jan-2025 21:42:17 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:42:17 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:42:17 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:42:17 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:42:17 Europe/Berlin] Password verification failed for user: a
+[10-Jan-2025 21:42:17 Europe/Berlin] Login error: Invalid username or password
+[10-Jan-2025 21:42:17 Europe/Berlin] Stack trace: #0 {main}
+[10-Jan-2025 21:42:18 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 23
+[10-Jan-2025 21:42:18 Europe/Berlin] Login request received
+[10-Jan-2025 21:42:18 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:42:18 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:42:18 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 21:42:18 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 21:42:18 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:42:18 Europe/Berlin] Is email: no
+[10-Jan-2025 21:42:18 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 21:42:18 Europe/Berlin] Querying by username: a
+[10-Jan-2025 21:42:18 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:42:18 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:42:18 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:42:18 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:42:19 Europe/Berlin] Password verified successfully
+[10-Jan-2025 21:42:19 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 21:42:19 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:42:26 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 23
+[10-Jan-2025 21:42:26 Europe/Berlin] Login request received
+[10-Jan-2025 21:42:26 Europe/Berlin] POST data: {"username":"a@a.com","password":"aaaa"}
+[10-Jan-2025 21:42:26 Europe/Berlin] Raw input: {"username":"a@a.com","password":"aaaa"}
+[10-Jan-2025 21:42:26 Europe/Berlin] Decoded data: Array
+(
+    [username] => a@a.com
+    [password] => aaaa
+)
+
+[10-Jan-2025 21:42:26 Europe/Berlin] Attempting login for username: a@a.com
+[10-Jan-2025 21:42:26 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:42:26 Europe/Berlin] Is email: yes
+[10-Jan-2025 21:42:26 Europe/Berlin] Login attempt - Username/Email: a@a.com
+[10-Jan-2025 21:42:26 Europe/Berlin] Querying by email: a@a.com
+[10-Jan-2025 21:42:26 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:42:26 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:42:26 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:42:26 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:42:26 Europe/Berlin] Password verified successfully
+[10-Jan-2025 21:42:26 Europe/Berlin] Login successful for user: a@a.com
+[10-Jan-2025 21:42:26 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:43:30 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 11
+[10-Jan-2025 21:43:30 Europe/Berlin] Login request received
+[10-Jan-2025 21:43:30 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:43:30 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:43:30 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 21:43:30 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 21:43:30 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:43:30 Europe/Berlin] Is email: no
+[10-Jan-2025 21:43:30 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 21:43:30 Europe/Berlin] Querying by username: a
+[10-Jan-2025 21:43:30 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:43:30 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:43:30 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:43:30 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:43:31 Europe/Berlin] Password verified successfully
+[10-Jan-2025 21:43:31 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 21:43:31 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:43:31 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:43:31 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:43:31 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 11
+[10-Jan-2025 21:43:31 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:43:31 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:43:31 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:43:31 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 11
+[10-Jan-2025 21:43:31 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:43:31 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:43:31 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:44:35 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:44:35 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:44:35 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:44:35 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:44:35 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:44:35 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:44:35 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:44:35 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:44:35 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:44:35 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:47:15 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:47:15 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:47:15 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:47:15 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:47:15 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:47:15 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:47:15 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:47:15 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:47:15 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:47:15 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:49:01 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:49:01 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:49:01 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:49:01 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:49:01 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:49:01 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:49:01 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:49:01 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:49:01 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:49:01 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:49:57 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:49:57 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:49:57 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:49:57 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:49:57 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:49:57 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:49:57 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:49:57 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:49:57 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:49:57 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:49:57 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:49:57 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:49:57 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:49:57 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:49:57 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:49:57 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:49:57 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:49:57 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:49:57 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:49:57 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:53:12 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 11
+[10-Jan-2025 21:53:12 Europe/Berlin] Login request received
+[10-Jan-2025 21:53:12 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:53:12 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:53:12 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 21:53:12 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 21:53:12 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:53:12 Europe/Berlin] Is email: no
+[10-Jan-2025 21:53:12 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 21:53:12 Europe/Berlin] Querying by username: a
+[10-Jan-2025 21:53:12 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:53:12 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:53:12 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:53:12 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:53:13 Europe/Berlin] Password verified successfully
+[10-Jan-2025 21:53:13 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 21:53:13 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:53:13 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:53:13 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:53:13 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:53:13 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:53:13 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:53:13 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:53:13 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\get_dass_result.php on line 23
+[10-Jan-2025 21:53:13 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:53:13 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:53:13 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:54:21 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:54:21 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:54:21 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:54:21 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:54:21 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:54:21 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:54:21 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:54:21 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:54:25 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:54:25 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:54:25 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:54:25 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:54:25 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:54:25 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:54:25 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:54:25 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:56:29 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 11
+[10-Jan-2025 21:56:29 Europe/Berlin] Login request received
+[10-Jan-2025 21:56:29 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:56:29 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:56:29 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 21:56:29 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 21:56:29 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:56:29 Europe/Berlin] Is email: no
+[10-Jan-2025 21:56:29 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 21:56:29 Europe/Berlin] Querying by username: a
+[10-Jan-2025 21:56:29 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:56:29 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:56:29 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:56:29 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:56:29 Europe/Berlin] Password verified successfully
+[10-Jan-2025 21:56:29 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 21:56:29 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:56:30 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:56:30 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:56:30 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:56:30 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:56:30 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:56:30 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:56:30 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:56:30 Europe/Berlin] Query result: No results found
+[10-Jan-2025 21:59:24 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 11
+[10-Jan-2025 21:59:24 Europe/Berlin] Login request received
+[10-Jan-2025 21:59:24 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:59:24 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 21:59:24 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 21:59:24 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 21:59:24 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:59:24 Europe/Berlin] Is email: no
+[10-Jan-2025 21:59:24 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 21:59:24 Europe/Berlin] Querying by username: a
+[10-Jan-2025 21:59:24 Europe/Berlin] Query executed successfully
+[10-Jan-2025 21:59:24 Europe/Berlin] Query result: User found
+[10-Jan-2025 21:59:24 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 21:59:24 Europe/Berlin] Verifying password...
+[10-Jan-2025 21:59:24 Europe/Berlin] Password verified successfully
+[10-Jan-2025 21:59:24 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 21:59:24 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:59:24 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 21:59:24 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 21:59:24 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 21:59:24 Europe/Berlin] Database connection successful
+[10-Jan-2025 21:59:24 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:00:02 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:00:02 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 22:00:02 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:00:02 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:00:02 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:00:24 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 11
+[10-Jan-2025 22:00:24 Europe/Berlin] Login request received
+[10-Jan-2025 22:00:24 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:00:24 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:00:24 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 22:00:24 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 22:00:24 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:00:24 Europe/Berlin] Is email: no
+[10-Jan-2025 22:00:24 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 22:00:24 Europe/Berlin] Querying by username: a
+[10-Jan-2025 22:00:24 Europe/Berlin] Query executed successfully
+[10-Jan-2025 22:00:24 Europe/Berlin] Query result: User found
+[10-Jan-2025 22:00:24 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 22:00:24 Europe/Berlin] Verifying password...
+[10-Jan-2025 22:00:24 Europe/Berlin] Password verified successfully
+[10-Jan-2025 22:00:24 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 22:00:24 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:00:24 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:00:24 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 22:00:24 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:00:24 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:00:24 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:00:59 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 11
+[10-Jan-2025 22:00:59 Europe/Berlin] Login request received
+[10-Jan-2025 22:00:59 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:00:59 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:00:59 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 22:00:59 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 22:00:59 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:00:59 Europe/Berlin] Is email: no
+[10-Jan-2025 22:00:59 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 22:00:59 Europe/Berlin] Querying by username: a
+[10-Jan-2025 22:00:59 Europe/Berlin] Query executed successfully
+[10-Jan-2025 22:00:59 Europe/Berlin] Query result: User found
+[10-Jan-2025 22:00:59 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 22:00:59 Europe/Berlin] Verifying password...
+[10-Jan-2025 22:00:59 Europe/Berlin] Password verified successfully
+[10-Jan-2025 22:00:59 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 22:00:59 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:00:59 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:00:59 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 22:00:59 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:00:59 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:00:59 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:01:06 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 11
+[10-Jan-2025 22:01:06 Europe/Berlin] Login request received
+[10-Jan-2025 22:01:06 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:01:06 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:01:06 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 22:01:06 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 22:01:06 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:01:06 Europe/Berlin] Is email: no
+[10-Jan-2025 22:01:06 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 22:01:06 Europe/Berlin] Querying by username: a
+[10-Jan-2025 22:01:06 Europe/Berlin] Query executed successfully
+[10-Jan-2025 22:01:06 Europe/Berlin] Query result: User found
+[10-Jan-2025 22:01:06 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 22:01:06 Europe/Berlin] Verifying password...
+[10-Jan-2025 22:01:06 Europe/Berlin] Password verified successfully
+[10-Jan-2025 22:01:06 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 22:01:06 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:01:06 Europe/Berlin] Checking session: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:01:06 Europe/Berlin] Session valid for user: a
+[10-Jan-2025 22:01:06 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:01:06 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:01:06 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:02:42 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:02:42 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:02:42 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:02:43 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:02:43 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:02:43 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:03:04 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 11
+[10-Jan-2025 22:03:04 Europe/Berlin] Login request received
+[10-Jan-2025 22:03:04 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:03:04 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:03:04 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 22:03:04 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 22:03:04 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:03:04 Europe/Berlin] Is email: no
+[10-Jan-2025 22:03:04 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 22:03:04 Europe/Berlin] Querying by username: a
+[10-Jan-2025 22:03:04 Europe/Berlin] Query executed successfully
+[10-Jan-2025 22:03:04 Europe/Berlin] Query result: User found
+[10-Jan-2025 22:03:04 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 22:03:04 Europe/Berlin] Verifying password...
+[10-Jan-2025 22:03:04 Europe/Berlin] Password verified successfully
+[10-Jan-2025 22:03:04 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 22:03:04 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:03:04 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:03:04 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:03:04 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:04:29 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 11
+[10-Jan-2025 22:04:29 Europe/Berlin] Login request received
+[10-Jan-2025 22:04:29 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:04:29 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:04:29 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 22:04:29 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 22:04:29 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:04:29 Europe/Berlin] Is email: no
+[10-Jan-2025 22:04:29 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 22:04:29 Europe/Berlin] Querying by username: a
+[10-Jan-2025 22:04:29 Europe/Berlin] Query executed successfully
+[10-Jan-2025 22:04:29 Europe/Berlin] Query result: User found
+[10-Jan-2025 22:04:29 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 22:04:29 Europe/Berlin] Verifying password...
+[10-Jan-2025 22:04:29 Europe/Berlin] Password verified successfully
+[10-Jan-2025 22:04:29 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 22:04:29 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:04:29 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:04:29 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:04:29 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:04:54 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:04:54 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:04:54 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:04:54 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:04:54 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:04:54 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:05:18 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\MindWellness\api\login.php on line 11
+[10-Jan-2025 22:05:18 Europe/Berlin] Login request received
+[10-Jan-2025 22:05:18 Europe/Berlin] POST data: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:05:18 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:05:18 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 22:05:18 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 22:05:18 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:05:18 Europe/Berlin] Is email: no
+[10-Jan-2025 22:05:18 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 22:05:18 Europe/Berlin] Querying by username: a
+[10-Jan-2025 22:05:18 Europe/Berlin] Query executed successfully
+[10-Jan-2025 22:05:18 Europe/Berlin] Query result: User found
+[10-Jan-2025 22:05:18 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 22:05:18 Europe/Berlin] Verifying password...
+[10-Jan-2025 22:05:18 Europe/Berlin] Password verified successfully
+[10-Jan-2025 22:05:18 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 22:05:18 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:05:18 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:05:18 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:05:18 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:07:10 Europe/Berlin] Login request received
+[10-Jan-2025 22:07:10 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:07:10 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 22:07:10 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 22:07:10 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:07:10 Europe/Berlin] Is email: no
+[10-Jan-2025 22:07:10 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 22:07:10 Europe/Berlin] Querying by username: a
+[10-Jan-2025 22:07:10 Europe/Berlin] Query executed successfully
+[10-Jan-2025 22:07:10 Europe/Berlin] Query result: User found
+[10-Jan-2025 22:07:10 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 22:07:10 Europe/Berlin] Verifying password...
+[10-Jan-2025 22:07:10 Europe/Berlin] Password verified successfully
+[10-Jan-2025 22:07:10 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 22:07:10 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:07:10 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:07:10 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:07:10 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:08:56 Europe/Berlin] Login request received
+[10-Jan-2025 22:08:56 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[10-Jan-2025 22:08:56 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[10-Jan-2025 22:08:56 Europe/Berlin] Attempting login for username: a
+[10-Jan-2025 22:08:56 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:08:56 Europe/Berlin] Is email: no
+[10-Jan-2025 22:08:56 Europe/Berlin] Login attempt - Username/Email: a
+[10-Jan-2025 22:08:56 Europe/Berlin] Querying by username: a
+[10-Jan-2025 22:08:56 Europe/Berlin] Query executed successfully
+[10-Jan-2025 22:08:56 Europe/Berlin] Query result: User found
+[10-Jan-2025 22:08:56 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[10-Jan-2025 22:08:56 Europe/Berlin] Verifying password...
+[10-Jan-2025 22:08:56 Europe/Berlin] Password verified successfully
+[10-Jan-2025 22:08:56 Europe/Berlin] Login successful for user: a
+[10-Jan-2025 22:08:56 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[10-Jan-2025 22:08:56 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:08:56 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:08:56 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:09:47 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:09:47 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:09:47 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:09:48 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:09:48 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:09:48 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:09:48 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:09:48 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:09:48 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:10:37 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:10:37 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:10:37 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:10:37 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:10:37 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:10:37 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:10:38 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:10:38 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:10:38 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:10:38 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:10:38 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:10:38 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:10:38 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:10:38 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:10:38 Europe/Berlin] Query result: No results found
+[10-Jan-2025 22:10:38 Europe/Berlin] Getting DASS results for user ID: 1
+[10-Jan-2025 22:10:38 Europe/Berlin] Database connection successful
+[10-Jan-2025 22:10:38 Europe/Berlin] Query result: No results found
+[12-Jan-2025 04:29:15 Europe/Berlin] Login request received
+[12-Jan-2025 04:29:15 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[12-Jan-2025 04:29:15 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[12-Jan-2025 04:29:15 Europe/Berlin] Attempting login for username: a
+[12-Jan-2025 04:29:15 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:29:15 Europe/Berlin] Is email: no
+[12-Jan-2025 04:29:15 Europe/Berlin] Login attempt - Username/Email: a
+[12-Jan-2025 04:29:15 Europe/Berlin] Querying by username: a
+[12-Jan-2025 04:29:15 Europe/Berlin] Query executed successfully
+[12-Jan-2025 04:29:15 Europe/Berlin] Query result: User found
+[12-Jan-2025 04:29:15 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[12-Jan-2025 04:29:15 Europe/Berlin] Verifying password...
+[12-Jan-2025 04:29:15 Europe/Berlin] Password verified successfully
+[12-Jan-2025 04:29:15 Europe/Berlin] Login successful for user: a
+[12-Jan-2025 04:29:15 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:29:15 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 04:29:15 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:29:15 Europe/Berlin] Query result: No results found
+[12-Jan-2025 04:29:33 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:29:33 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 04:29:50 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:29:50 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 04:29:50 Europe/Berlin] Raw input: {"q1":1,"q2":2,"q3":2,"q4":2,"q5":2,"q6":1,"q7":2,"q8":3,"q9":3,"q10":2,"q11":1,"q12":1,"q13":1,"q14":2,"q15":1,"q16":1,"q17":2,"q18":0,"q19":0,"q20":0,"q21":0}
+[12-Jan-2025 04:29:50 Europe/Berlin] Calculated scores - Depression: 20, Anxiety: 20, Stress: 18
+[12-Jan-2025 04:29:50 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:29:50 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:29:50 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 04:29:50 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:29:50 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 04:29:50 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 04:29:50 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:29:50 Europe/Berlin] Query result: Results found
+[12-Jan-2025 04:30:02 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:30:02 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 04:30:25 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:30:25 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 04:30:25 Europe/Berlin] Raw input: {"q1":0,"q2":0,"q3":0,"q4":0,"q5":0,"q6":0,"q7":0,"q8":0,"q9":0,"q10":0,"q11":0,"q12":0,"q13":0,"q14":0,"q15":0,"q16":0,"q17":0,"q18":0,"q19":0,"q20":0,"q21":0}
+[12-Jan-2025 04:30:25 Europe/Berlin] Calculated scores - Depression: 0, Anxiety: 0, Stress: 0
+[12-Jan-2025 04:30:25 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:30:25 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:30:25 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 04:30:25 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:30:25 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 04:30:25 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 04:30:25 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:30:25 Europe/Berlin] Query result: Results found
+[12-Jan-2025 04:30:28 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:30:28 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 04:30:45 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:30:45 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 04:30:45 Europe/Berlin] Raw input: {"q1":3,"q2":3,"q3":3,"q4":3,"q5":3,"q6":3,"q7":3,"q8":3,"q9":3,"q10":3,"q11":3,"q12":3,"q13":3,"q14":3,"q15":3,"q16":3,"q17":3,"q18":3,"q19":3,"q20":3,"q21":3}
+[12-Jan-2025 04:30:45 Europe/Berlin] Calculated scores - Depression: 42, Anxiety: 42, Stress: 42
+[12-Jan-2025 04:30:45 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:30:45 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:30:45 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 04:30:45 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:30:45 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 04:30:45 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 04:30:45 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:30:45 Europe/Berlin] Query result: Results found
+[12-Jan-2025 04:34:27 Europe/Berlin] Raw input: {"username":"arissa","email":"aisa@gmail.com","password":"asd"}
+[12-Jan-2025 04:34:27 Europe/Berlin] Decoded data: Array
+(
+    [username] => arissa
+    [email] => aisa@gmail.com
+    [password] => asd
+)
+
+[12-Jan-2025 04:34:27 Europe/Berlin] Signup error: Password must be at least 6 characters long
+[12-Jan-2025 04:34:27 Europe/Berlin] Stack trace: #0 {main}
+[12-Jan-2025 04:34:38 Europe/Berlin] Login request received
+[12-Jan-2025 04:34:38 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[12-Jan-2025 04:34:38 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[12-Jan-2025 04:34:38 Europe/Berlin] Attempting login for username: a
+[12-Jan-2025 04:34:38 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:34:38 Europe/Berlin] Is email: no
+[12-Jan-2025 04:34:38 Europe/Berlin] Login attempt - Username/Email: a
+[12-Jan-2025 04:34:38 Europe/Berlin] Querying by username: a
+[12-Jan-2025 04:34:38 Europe/Berlin] Query executed successfully
+[12-Jan-2025 04:34:38 Europe/Berlin] Query result: User found
+[12-Jan-2025 04:34:38 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[12-Jan-2025 04:34:38 Europe/Berlin] Verifying password...
+[12-Jan-2025 04:34:39 Europe/Berlin] Password verified successfully
+[12-Jan-2025 04:34:39 Europe/Berlin] Login successful for user: a
+[12-Jan-2025 04:34:39 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:34:39 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 04:34:39 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:34:39 Europe/Berlin] Query result: Results found
+[12-Jan-2025 04:34:55 Europe/Berlin] Login request received
+[12-Jan-2025 04:34:55 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[12-Jan-2025 04:34:55 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[12-Jan-2025 04:34:55 Europe/Berlin] Attempting login for username: a
+[12-Jan-2025 04:34:55 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:34:55 Europe/Berlin] Is email: no
+[12-Jan-2025 04:34:55 Europe/Berlin] Login attempt - Username/Email: a
+[12-Jan-2025 04:34:55 Europe/Berlin] Querying by username: a
+[12-Jan-2025 04:34:55 Europe/Berlin] Query executed successfully
+[12-Jan-2025 04:34:55 Europe/Berlin] Query result: User found
+[12-Jan-2025 04:34:55 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[12-Jan-2025 04:34:55 Europe/Berlin] Verifying password...
+[12-Jan-2025 04:34:55 Europe/Berlin] Password verified successfully
+[12-Jan-2025 04:34:55 Europe/Berlin] Login successful for user: a
+[12-Jan-2025 04:34:55 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:34:55 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 04:34:55 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:34:55 Europe/Berlin] Query result: Results found
+[12-Jan-2025 04:37:13 Europe/Berlin] Login request received
+[12-Jan-2025 04:37:13 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[12-Jan-2025 04:37:13 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[12-Jan-2025 04:37:13 Europe/Berlin] Attempting login for username: a
+[12-Jan-2025 04:37:13 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:37:13 Europe/Berlin] Is email: no
+[12-Jan-2025 04:37:13 Europe/Berlin] Login attempt - Username/Email: a
+[12-Jan-2025 04:37:13 Europe/Berlin] Querying by username: a
+[12-Jan-2025 04:37:13 Europe/Berlin] Query executed successfully
+[12-Jan-2025 04:37:13 Europe/Berlin] Query result: User found
+[12-Jan-2025 04:37:13 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[12-Jan-2025 04:37:13 Europe/Berlin] Verifying password...
+[12-Jan-2025 04:37:13 Europe/Berlin] Password verified successfully
+[12-Jan-2025 04:37:13 Europe/Berlin] Login successful for user: a
+[12-Jan-2025 04:37:13 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 04:37:13 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 04:37:13 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:37:13 Europe/Berlin] Query result: Results found
+[12-Jan-2025 04:40:17 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 04:40:17 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:40:17 Europe/Berlin] Query result: Results found
+[12-Jan-2025 04:58:33 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 04:58:33 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:58:33 Europe/Berlin] Query result: Results found
+[12-Jan-2025 04:58:35 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 04:58:35 Europe/Berlin] Database connection successful
+[12-Jan-2025 04:58:35 Europe/Berlin] Query result: Results found
+[12-Jan-2025 05:02:34 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 05:02:34 Europe/Berlin] Database connection successful
+[12-Jan-2025 05:02:34 Europe/Berlin] Query result: Results found
+[12-Jan-2025 05:02:36 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 05:02:36 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 05:02:51 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 05:02:51 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 05:02:51 Europe/Berlin] Raw input: {"q1":1,"q2":2,"q3":0,"q4":2,"q5":1,"q6":2,"q7":1,"q8":3,"q9":1,"q10":0,"q11":1,"q12":2,"q13":2,"q14":1,"q15":2,"q16":1,"q17":0,"q18":2,"q19":2,"q20":0,"q21":2}
+[12-Jan-2025 05:02:51 Europe/Berlin] Calculated scores - Depression: 12, Anxiety: 20, Stress: 24
+[12-Jan-2025 05:02:51 Europe/Berlin] Database connection successful
+[12-Jan-2025 05:02:51 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 05:02:51 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 05:02:51 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 05:02:51 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 05:02:52 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 05:02:52 Europe/Berlin] Database connection successful
+[12-Jan-2025 05:02:52 Europe/Berlin] Query result: Results found
+[12-Jan-2025 05:03:47 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 05:03:47 Europe/Berlin] Database connection successful
+[12-Jan-2025 05:03:47 Europe/Berlin] Query result: Results found
+[12-Jan-2025 05:06:20 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 05:06:20 Europe/Berlin] Database connection successful
+[12-Jan-2025 05:06:20 Europe/Berlin] Query result: Results found
+[12-Jan-2025 12:08:54 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 12:08:54 Europe/Berlin] Database connection successful
+[12-Jan-2025 12:08:54 Europe/Berlin] Query result: Results found
+[12-Jan-2025 12:12:59 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 12:12:59 Europe/Berlin] Database connection successful
+[12-Jan-2025 12:12:59 Europe/Berlin] Query result: Results found
+[12-Jan-2025 13:14:53 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 13:14:53 Europe/Berlin] Database connection successful
+[12-Jan-2025 13:14:53 Europe/Berlin] Query result: Results found
+[12-Jan-2025 13:14:55 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 13:14:55 Europe/Berlin] Database connection successful
+[12-Jan-2025 13:14:55 Europe/Berlin] Query result: Results found
+[12-Jan-2025 13:14:55 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 13:14:55 Europe/Berlin] Database connection successful
+[12-Jan-2025 13:14:55 Europe/Berlin] Query result: Results found
+[12-Jan-2025 13:21:11 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 13:21:11 Europe/Berlin] Database connection successful
+[12-Jan-2025 13:21:11 Europe/Berlin] Query result: Results found
+[12-Jan-2025 13:21:12 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 13:21:12 Europe/Berlin] Database connection successful
+[12-Jan-2025 13:21:12 Europe/Berlin] Query result: Results found
+[12-Jan-2025 13:36:54 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 13:36:54 Europe/Berlin] Database connection successful
+[12-Jan-2025 13:36:54 Europe/Berlin] Query result: Results found
+[12-Jan-2025 13:48:31 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 13:48:31 Europe/Berlin] Database connection successful
+[12-Jan-2025 13:48:31 Europe/Berlin] Query result: Results found
+[12-Jan-2025 13:48:41 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 13:48:41 Europe/Berlin] Database connection successful
+[12-Jan-2025 13:48:41 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:11:56 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:11:56 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:11:56 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:15:06 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:15:06 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:15:06 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:15:53 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:15:53 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:16:14 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:16:14 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 14:16:14 Europe/Berlin] Raw input: {"q1":0,"q2":1,"q3":2,"q4":1,"q5":1,"q6":2,"q7":0,"q8":0,"q9":0,"q10":0,"q11":1,"q12":0,"q13":3,"q14":2,"q15":1,"q16":3,"q17":2,"q18":0,"q19":0,"q20":0,"q21":1}
+[12-Jan-2025 14:16:14 Europe/Berlin] Calculated scores - Depression: 24, Anxiety: 6, Stress: 10
+[12-Jan-2025 14:16:14 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:16:14 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:16:14 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 14:16:14 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:16:14 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:16:14 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:16:14 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:16:14 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:22:07 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:22:07 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:22:07 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:22:12 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:22:12 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:22:26 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:22:26 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 14:22:26 Europe/Berlin] Raw input: {"q1":3,"q2":3,"q3":3,"q4":3,"q5":3,"q6":3,"q7":3,"q8":3,"q9":3,"q10":3,"q11":3,"q12":3,"q13":3,"q14":3,"q15":3,"q16":3,"q17":3,"q18":3,"q19":3,"q20":3,"q21":3}
+[12-Jan-2025 14:22:26 Europe/Berlin] Calculated scores - Depression: 42, Anxiety: 42, Stress: 42
+[12-Jan-2025 14:22:26 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:22:26 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:22:26 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 14:22:26 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:22:26 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:22:26 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:22:26 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:22:26 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:23:01 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:23:01 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:23:17 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:23:17 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 14:23:17 Europe/Berlin] Raw input: {"q1":2,"q2":1,"q3":2,"q4":1,"q5":2,"q6":1,"q7":2,"q8":1,"q9":2,"q10":1,"q11":2,"q12":1,"q13":2,"q14":1,"q15":2,"q16":1,"q17":2,"q18":1,"q19":2,"q20":1,"q21":2}
+[12-Jan-2025 14:23:17 Europe/Berlin] Calculated scores - Depression: 24, Anxiety: 22, Stress: 18
+[12-Jan-2025 14:23:17 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:23:17 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:23:17 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 14:23:17 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:23:17 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:23:17 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:23:17 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:23:17 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:23:23 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:23:23 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:23:35 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:23:35 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 14:23:35 Europe/Berlin] Raw input: {"q1":1,"q2":1,"q3":1,"q4":1,"q5":1,"q6":1,"q7":1,"q8":1,"q9":1,"q10":1,"q11":1,"q12":1,"q13":1,"q14":1,"q15":1,"q16":1,"q17":1,"q18":1,"q19":1,"q20":1,"q21":1}
+[12-Jan-2025 14:23:35 Europe/Berlin] Calculated scores - Depression: 14, Anxiety: 14, Stress: 14
+[12-Jan-2025 14:23:35 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:23:35 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:23:35 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 14:23:35 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:23:35 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:23:35 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:23:35 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:23:35 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:23:51 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:23:51 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:24:06 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:24:06 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 14:24:06 Europe/Berlin] Raw input: {"q1":0,"q2":0,"q3":0,"q4":0,"q5":0,"q6":0,"q7":0,"q8":0,"q9":0,"q10":0,"q11":0,"q12":0,"q13":0,"q14":0,"q15":0,"q16":0,"q17":0,"q18":0,"q19":0,"q20":0,"q21":0}
+[12-Jan-2025 14:24:06 Europe/Berlin] Calculated scores - Depression: 0, Anxiety: 0, Stress: 0
+[12-Jan-2025 14:24:06 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:24:06 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:24:06 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 14:24:06 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:24:06 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:24:06 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:24:06 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:24:06 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:24:13 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:24:13 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:24:13 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:24:15 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:24:15 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:24:15 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:28:29 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:28:29 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:28:29 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:28:33 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:28:33 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:28:33 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:28:33 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:28:33 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:28:33 Europe/Berlin] Query result: Results found
+[12-Jan-2025 14:28:43 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:28:43 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:28:59 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:28:59 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 14:28:59 Europe/Berlin] Raw input: {"q1":2,"q2":1,"q3":2,"q4":1,"q5":3,"q6":2,"q7":1,"q8":2,"q9":3,"q10":2,"q11":1,"q12":0,"q13":1,"q14":2,"q15":3,"q16":2,"q17":0,"q18":0,"q19":0,"q20":0,"q21":0}
+[12-Jan-2025 14:28:59 Europe/Berlin] Calculated scores - Depression: 20, Anxiety: 18, Stress: 18
+[12-Jan-2025 14:28:59 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:28:59 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:28:59 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 14:28:59 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 14:28:59 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 14:28:59 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 14:28:59 Europe/Berlin] Database connection successful
+[12-Jan-2025 14:28:59 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:20:05 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:20:05 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:20:05 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:20:14 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:20:14 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:20:14 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:20:20 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:20:20 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 15:20:39 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:20:39 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 15:20:39 Europe/Berlin] Raw input: {"q1":2,"q2":2,"q3":1,"q4":1,"q5":2,"q6":2,"q7":1,"q8":1,"q9":1,"q10":2,"q11":2,"q12":2,"q13":1,"q14":1,"q15":2,"q16":2,"q17":1,"q18":2,"q19":1,"q20":2,"q21":1}
+[12-Jan-2025 15:20:39 Europe/Berlin] Calculated scores - Depression: 20, Anxiety: 20, Stress: 24
+[12-Jan-2025 15:20:39 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:20:39 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:20:39 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 15:20:39 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:20:39 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 15:20:39 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:20:39 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:20:39 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:29:49 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:29:49 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:29:49 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:29:54 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:29:54 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:29:54 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:29:59 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:29:59 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:29:59 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:35:26 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:35:26 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:35:26 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:36:12 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:36:12 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 15:36:27 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:36:27 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 15:36:27 Europe/Berlin] Raw input: {"q1":0,"q2":1,"q3":0,"q4":1,"q5":0,"q6":1,"q7":0,"q8":1,"q9":0,"q10":1,"q11":0,"q12":1,"q13":0,"q14":1,"q15":0,"q16":1,"q17":0,"q18":1,"q19":0,"q20":1,"q21":0}
+[12-Jan-2025 15:36:27 Europe/Berlin] Calculated scores - Depression: 4, Anxiety: 6, Stress: 10
+[12-Jan-2025 15:36:27 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:36:27 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:36:27 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 15:36:27 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:36:27 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 15:36:27 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:36:27 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:36:27 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:36:34 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:36:34 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 15:36:55 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:36:55 Europe/Berlin] Processing DASS assessment for user ID: 1
+[12-Jan-2025 15:36:55 Europe/Berlin] Raw input: {"q1":1,"q2":2,"q3":0,"q4":1,"q5":2,"q6":1,"q7":2,"q8":0,"q9":0,"q10":1,"q11":2,"q12":0,"q13":1,"q14":2,"q15":1,"q16":0,"q17":2,"q18":0,"q19":1,"q20":2,"q21":0}
+[12-Jan-2025 15:36:55 Europe/Berlin] Calculated scores - Depression: 12, Anxiety: 18, Stress: 12
+[12-Jan-2025 15:36:55 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:36:55 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:36:55 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 15:36:55 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:36:55 Europe/Berlin] Session check passed for user: a
+[12-Jan-2025 15:36:55 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:36:55 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:36:55 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:55:39 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:55:39 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:55:39 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:56:39 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:56:39 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:56:39 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:56:40 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:56:40 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:56:40 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:56:40 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:56:40 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:56:40 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:56:41 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:56:41 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:56:41 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:56:55 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:56:55 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:56:55 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:56:59 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:56:59 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:56:59 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:57:34 Europe/Berlin] Login request received
+[12-Jan-2025 15:57:34 Europe/Berlin] Raw input: {"username":"a","password":"aaaa"}
+[12-Jan-2025 15:57:34 Europe/Berlin] Decoded data: Array
+(
+    [username] => a
+    [password] => aaaa
+)
+
+[12-Jan-2025 15:57:34 Europe/Berlin] Attempting login for username: a
+[12-Jan-2025 15:57:34 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:57:34 Europe/Berlin] Is email: no
+[12-Jan-2025 15:57:34 Europe/Berlin] Login attempt - Username/Email: a
+[12-Jan-2025 15:57:34 Europe/Berlin] Querying by username: a
+[12-Jan-2025 15:57:34 Europe/Berlin] Query executed successfully
+[12-Jan-2025 15:57:34 Europe/Berlin] Query result: User found
+[12-Jan-2025 15:57:34 Europe/Berlin] Stored password hash: $2y$10$jul1Su1PqvPHnFbJ6m0FV.hKFN32/KH5ZtzANX.59uwT3rksjuLkC
+[12-Jan-2025 15:57:34 Europe/Berlin] Verifying password...
+[12-Jan-2025 15:57:34 Europe/Berlin] Password verified successfully
+[12-Jan-2025 15:57:34 Europe/Berlin] Login successful for user: a
+[12-Jan-2025 15:57:34 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 1
+    [username] => a
+    [logged_in] => 1
+)
+
+[12-Jan-2025 15:57:34 Europe/Berlin] Getting DASS results for user ID: 1
+[12-Jan-2025 15:57:34 Europe/Berlin] Database connection successful
+[12-Jan-2025 15:57:34 Europe/Berlin] Query result: Results found
+[12-Jan-2025 15:57:59 Europe/Berlin] Raw input: {"username":"ss","email":"s@s.com","password":"ssss"}
+[12-Jan-2025 15:57:59 Europe/Berlin] Decoded data: Array
+(
+    [username] => ss
+    [email] => s@s.com
+    [password] => ssss
+)
+
+[12-Jan-2025 15:57:59 Europe/Berlin] Signup error: Username must be between 3 and 50 characters
+[12-Jan-2025 15:57:59 Europe/Berlin] Stack trace: #0 {main}
+[12-Jan-2025 16:00:00 Europe/Berlin] Raw input: {"username":"ss","email":"s@s.com","password":"ssss"}
+[12-Jan-2025 16:00:00 Europe/Berlin] Decoded data: Array
+(
+    [username] => ss
+    [email] => s@s.com
+    [password] => ssss
+)
+
+[12-Jan-2025 16:00:00 Europe/Berlin] Signup error: Username must be between 3 and 50 characters
+[12-Jan-2025 16:00:00 Europe/Berlin] Stack trace: #0 {main}
+[12-Jan-2025 16:00:12 Europe/Berlin] Raw input: {"username":"ss","email":"s@s","password":"ssss"}
+[12-Jan-2025 16:00:12 Europe/Berlin] Decoded data: Array
+(
+    [username] => ss
+    [email] => s@s
+    [password] => ssss
+)
+
+[12-Jan-2025 16:00:12 Europe/Berlin] Signup error: Username must be between 3 and 50 characters
+[12-Jan-2025 16:00:12 Europe/Berlin] Stack trace: #0 {main}
+[12-Jan-2025 16:00:17 Europe/Berlin] Raw input: {"username":"sss","email":"s@s","password":"ssss"}
+[12-Jan-2025 16:00:17 Europe/Berlin] Decoded data: Array
+(
+    [username] => sss
+    [email] => s@s
+    [password] => ssss
+)
+
+[12-Jan-2025 16:00:17 Europe/Berlin] Signup error: Invalid email format
+[12-Jan-2025 16:00:17 Europe/Berlin] Stack trace: #0 {main}
+[12-Jan-2025 16:00:25 Europe/Berlin] Raw input: {"username":"sss","email":"s@s.com","password":"ssss"}
+[12-Jan-2025 16:00:25 Europe/Berlin] Decoded data: Array
+(
+    [username] => sss
+    [email] => s@s.com
+    [password] => ssss
+)
+
+[12-Jan-2025 16:00:25 Europe/Berlin] Signup error: Password must be at least 6 characters long
+[12-Jan-2025 16:00:25 Europe/Berlin] Stack trace: #0 {main}
+[12-Jan-2025 16:00:30 Europe/Berlin] Raw input: {"username":"sss","email":"s@s.com","password":"ssssss"}
+[12-Jan-2025 16:00:30 Europe/Berlin] Decoded data: Array
+(
+    [username] => sss
+    [email] => s@s.com
+    [password] => ssssss
+)
+
+[12-Jan-2025 16:00:30 Europe/Berlin] Database connection successful
+[12-Jan-2025 16:00:30 Europe/Berlin] Account created successfully for username: sss
+[12-Jan-2025 16:00:32 Europe/Berlin] Getting DASS results for user ID: 6
+[12-Jan-2025 16:00:32 Europe/Berlin] Database connection successful
+[12-Jan-2025 16:00:32 Europe/Berlin] Query result: No results found
+[12-Jan-2025 16:00:37 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:00:37 Europe/Berlin] Session check passed for user: sss
+[12-Jan-2025 16:00:57 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:00:57 Europe/Berlin] Processing DASS assessment for user ID: 6
+[12-Jan-2025 16:00:57 Europe/Berlin] Raw input: {"q1":1,"q2":2,"q3":0,"q4":2,"q5":1,"q6":2,"q7":3,"q8":1,"q9":2,"q10":3,"q11":1,"q12":2,"q13":1,"q14":1,"q15":2,"q16":1,"q17":2,"q18":1,"q19":0,"q20":3,"q21":0}
+[12-Jan-2025 16:00:57 Europe/Berlin] Calculated scores - Depression: 16, Anxiety: 28, Stress: 18
+[12-Jan-2025 16:00:57 Europe/Berlin] Database connection successful
+[12-Jan-2025 16:00:57 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:00:57 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 16:00:57 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:00:57 Europe/Berlin] Session check passed for user: sss
+[12-Jan-2025 16:00:57 Europe/Berlin] Getting DASS results for user ID: 6
+[12-Jan-2025 16:00:57 Europe/Berlin] Database connection successful
+[12-Jan-2025 16:00:57 Europe/Berlin] Query result: Results found
+[12-Jan-2025 16:01:03 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:01:03 Europe/Berlin] Session check passed for user: sss
+[12-Jan-2025 16:01:17 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:01:17 Europe/Berlin] Processing DASS assessment for user ID: 6
+[12-Jan-2025 16:01:17 Europe/Berlin] Raw input: {"q1":0,"q2":0,"q3":0,"q4":0,"q5":0,"q6":0,"q7":0,"q8":0,"q9":0,"q10":0,"q11":0,"q12":0,"q13":0,"q14":0,"q15":0,"q16":0,"q17":0,"q18":0,"q19":0,"q20":0,"q21":0}
+[12-Jan-2025 16:01:17 Europe/Berlin] Calculated scores - Depression: 0, Anxiety: 0, Stress: 0
+[12-Jan-2025 16:01:17 Europe/Berlin] Database connection successful
+[12-Jan-2025 16:01:17 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:01:17 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 16:01:17 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:01:17 Europe/Berlin] Session check passed for user: sss
+[12-Jan-2025 16:01:17 Europe/Berlin] Getting DASS results for user ID: 6
+[12-Jan-2025 16:01:17 Europe/Berlin] Database connection successful
+[12-Jan-2025 16:01:17 Europe/Berlin] Query result: Results found
+[12-Jan-2025 16:17:13 Europe/Berlin] Login request received
+[12-Jan-2025 16:17:13 Europe/Berlin] Raw input: {"username":"sss","password":"ssssss"}
+[12-Jan-2025 16:17:13 Europe/Berlin] Decoded data: Array
+(
+    [username] => sss
+    [password] => ssssss
+)
+
+[12-Jan-2025 16:17:13 Europe/Berlin] Attempting login for username: sss
+[12-Jan-2025 16:17:13 Europe/Berlin] Database connection successful
+[12-Jan-2025 16:17:13 Europe/Berlin] Is email: no
+[12-Jan-2025 16:17:13 Europe/Berlin] Login attempt - Username/Email: sss
+[12-Jan-2025 16:17:13 Europe/Berlin] Querying by username: sss
+[12-Jan-2025 16:17:13 Europe/Berlin] Query executed successfully
+[12-Jan-2025 16:17:13 Europe/Berlin] Query result: User found
+[12-Jan-2025 16:17:13 Europe/Berlin] Stored password hash: $2y$10$GEcSd6zdqlRKbfcBVE2SDOP8.9rW8ITP18A08/GjPP6OcpD.XroNW
+[12-Jan-2025 16:17:13 Europe/Berlin] Verifying password...
+[12-Jan-2025 16:17:13 Europe/Berlin] Password verified successfully
+[12-Jan-2025 16:17:13 Europe/Berlin] Login successful for user: sss
+[12-Jan-2025 16:17:13 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:17:33 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:17:33 Europe/Berlin] Session check passed for user: sss
+[12-Jan-2025 16:17:47 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:17:47 Europe/Berlin] Processing DASS assessment for user ID: 6
+[12-Jan-2025 16:17:47 Europe/Berlin] Raw input: {"q1":1,"q2":2,"q3":1,"q4":2,"q5":3,"q6":1,"q7":2,"q8":0,"q9":1,"q10":2,"q11":0,"q12":0,"q13":1,"q14":1,"q15":1,"q16":0,"q17":0,"q18":1,"q19":1,"q20":1,"q21":2}
+[12-Jan-2025 16:17:47 Europe/Berlin] Calculated scores - Depression: 18, Anxiety: 20, Stress: 8
+[12-Jan-2025 16:17:47 Europe/Berlin] Database connection successful
+[12-Jan-2025 16:17:47 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:17:47 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 16:17:47 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 6
+    [username] => sss
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:17:47 Europe/Berlin] Session check passed for user: sss
+[12-Jan-2025 16:30:49 Europe/Berlin] Raw input: {"username":"Arissa","email":"arysamht@gmail.com","password":"arissa"}
+[12-Jan-2025 16:30:49 Europe/Berlin] Decoded data: Array
+(
+    [username] => Arissa
+    [email] => arysamht@gmail.com
+    [password] => arissa
+)
+
+[12-Jan-2025 16:30:49 Europe/Berlin] Database connection successful
+[12-Jan-2025 16:30:49 Europe/Berlin] Signup error: Username already taken
+[12-Jan-2025 16:30:49 Europe/Berlin] Stack trace: #0 {main}
+[12-Jan-2025 16:30:56 Europe/Berlin] Raw input: {"username":"arysamht","email":"arysamht@gmail.com","password":"arissa"}
+[12-Jan-2025 16:30:56 Europe/Berlin] Decoded data: Array
+(
+    [username] => arysamht
+    [email] => arysamht@gmail.com
+    [password] => arissa
+)
+
+[12-Jan-2025 16:30:56 Europe/Berlin] Database connection successful
+[12-Jan-2025 16:30:56 Europe/Berlin] Account created successfully for username: arysamht
+[12-Jan-2025 16:32:27 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 7
+    [username] => arysamht
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:32:27 Europe/Berlin] Session check passed for user: arysamht
+[12-Jan-2025 16:52:05 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 7
+    [username] => arysamht
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:52:05 Europe/Berlin] Session check passed for user: arysamht
+[12-Jan-2025 16:52:24 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 7
+    [username] => arysamht
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:52:24 Europe/Berlin] Processing DASS assessment for user ID: 7
+[12-Jan-2025 16:52:24 Europe/Berlin] Raw input: {"q1":1,"q2":1,"q3":2,"q4":2,"q5":1,"q6":0,"q7":1,"q8":2,"q9":1,"q10":2,"q11":1,"q12":2,"q13":1,"q14":2,"q15":3,"q16":2,"q17":1,"q18":0,"q19":1,"q20":2,"q21":2}
+[12-Jan-2025 16:52:24 Europe/Berlin] Calculated scores - Depression: 22, Anxiety: 22, Stress: 16
+[12-Jan-2025 16:52:24 Europe/Berlin] Database connection successful
+[12-Jan-2025 16:52:24 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 7
+    [username] => arysamht
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:52:24 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 16:52:24 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 7
+    [username] => arysamht
+    [logged_in] => 1
+)
+
+[12-Jan-2025 16:52:24 Europe/Berlin] Session check passed for user: arysamht
+[12-Jan-2025 18:42:16 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 7
+    [username] => arysamht
+    [logged_in] => 1
+)
+
+[12-Jan-2025 18:42:16 Europe/Berlin] Session check passed for user: arysamht
+[12-Jan-2025 18:42:36 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 7
+    [username] => arysamht
+    [logged_in] => 1
+)
+
+[12-Jan-2025 18:42:36 Europe/Berlin] Processing DASS assessment for user ID: 7
+[12-Jan-2025 18:42:36 Europe/Berlin] Raw input: {"q1":0,"q2":1,"q3":1,"q4":1,"q5":2,"q6":2,"q7":2,"q8":1,"q9":1,"q10":1,"q11":0,"q12":0,"q13":0,"q14":1,"q15":2,"q16":1,"q17":0,"q18":0,"q19":1,"q20":2,"q21":1}
+[12-Jan-2025 18:42:36 Europe/Berlin] Calculated scores - Depression: 12, Anxiety: 20, Stress: 8
+[12-Jan-2025 18:42:36 Europe/Berlin] Database connection successful
+[12-Jan-2025 18:42:36 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 7
+    [username] => arysamht
+    [logged_in] => 1
+)
+
+[12-Jan-2025 18:42:36 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 18:42:36 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 7
+    [username] => arysamht
+    [logged_in] => 1
+)
+
+[12-Jan-2025 18:42:36 Europe/Berlin] Session check passed for user: arysamht
+[12-Jan-2025 18:45:17 Europe/Berlin] Raw input: {"username":"samantha","email":"sam@a.com","password":"samanrha"}
+[12-Jan-2025 18:45:17 Europe/Berlin] Decoded data: Array
+(
+    [username] => samantha
+    [email] => sam@a.com
+    [password] => samanrha
+)
+
+[12-Jan-2025 18:45:17 Europe/Berlin] Database connection successful
+[12-Jan-2025 18:45:17 Europe/Berlin] Account created successfully for username: samantha
+[12-Jan-2025 18:53:08 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 8
+    [username] => samantha
+    [logged_in] => 1
+)
+
+[12-Jan-2025 18:53:08 Europe/Berlin] Session check passed for user: samantha
+[12-Jan-2025 18:53:24 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 8
+    [username] => samantha
+    [logged_in] => 1
+)
+
+[12-Jan-2025 18:53:24 Europe/Berlin] Processing DASS assessment for user ID: 8
+[12-Jan-2025 18:53:24 Europe/Berlin] Raw input: {"q1":1,"q2":2,"q3":0,"q4":2,"q5":1,"q6":1,"q7":2,"q8":1,"q9":0,"q10":1,"q11":2,"q12":1,"q13":0,"q14":1,"q15":1,"q16":1,"q17":0,"q18":1,"q19":1,"q20":2,"q21":0}
+[12-Jan-2025 18:53:24 Europe/Berlin] Calculated scores - Depression: 6, Anxiety: 20, Stress: 16
+[12-Jan-2025 18:53:24 Europe/Berlin] Database connection successful
+[12-Jan-2025 18:53:24 Europe/Berlin] Assessment results saved successfully. Session after save: Array
+(
+    [user_id] => 8
+    [username] => samantha
+    [logged_in] => 1
+)
+
+[12-Jan-2025 18:53:24 Europe/Berlin] Assessment results returned to client successfully
+[12-Jan-2025 18:53:24 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 8
+    [username] => samantha
+    [logged_in] => 1
+)
+
+[12-Jan-2025 18:53:24 Europe/Berlin] Session check passed for user: samantha
+[12-Jan-2025 19:04:58 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 8
+    [username] => samantha
+    [logged_in] => 1
+)
+
+[12-Jan-2025 19:04:58 Europe/Berlin] Session check passed for user: samantha
+[12-Jan-2025 19:05:01 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 8
+    [username] => samantha
+    [logged_in] => 1
+)
+
+[12-Jan-2025 19:05:01 Europe/Berlin] Session check passed for user: samantha
+[12-Jan-2025 20:19:00 Europe/Berlin] Login request received
+[12-Jan-2025 20:19:00 Europe/Berlin] Raw input: {"username":"arysamht","password":"arissa"}
+[12-Jan-2025 20:19:00 Europe/Berlin] Decoded data: Array
+(
+    [username] => arysamht
+    [password] => arissa
+)
+
+[12-Jan-2025 20:19:00 Europe/Berlin] Attempting login for username: arysamht
+[12-Jan-2025 20:19:00 Europe/Berlin] Database connection successful
+[12-Jan-2025 20:19:00 Europe/Berlin] Is email: no
+[12-Jan-2025 20:19:00 Europe/Berlin] Login attempt - Username/Email: arysamht
+[12-Jan-2025 20:19:00 Europe/Berlin] Querying by username: arysamht
+[12-Jan-2025 20:19:00 Europe/Berlin] Query executed successfully
+[12-Jan-2025 20:19:00 Europe/Berlin] Query result: User found
+[12-Jan-2025 20:19:00 Europe/Berlin] Stored password hash: $2y$10$Z5K8P2XHpOReoI/OFVfz7uKoUhDrXr8cNV0//Nx/fIF84.IkYt2I2
+[12-Jan-2025 20:19:00 Europe/Berlin] Verifying password...
+[12-Jan-2025 20:19:01 Europe/Berlin] Password verified successfully
+[12-Jan-2025 20:19:01 Europe/Berlin] Login successful for user: arysamht
+[12-Jan-2025 20:19:01 Europe/Berlin] Session variables set: Array
+(
+    [user_id] => 7
+    [username] => arysamht
+    [logged_in] => 1
+)
+
+[13-Jan-2025 07:41:47 Europe/Berlin] Login request received
+[13-Jan-2025 07:41:47 Europe/Berlin] Raw input: {"username":"sss","password":"ssssss"}
+[13-Jan-2025 07:41:47 Europe/Berlin] Decoded data: Array
+(
+    [username] => sss
+    [password] => ssssss
+)
+
+[13-Jan-2025 07:41:47 Europe/Berlin] Attempting login for username: sss
+[13-Jan-2025 07:41:47 Europe/Berlin] Database connection error: Unknown database 'mindwellness'
+[13-Jan-2025 07:41:47 Europe/Berlin] Database connection successful
+[13-Jan-2025 07:41:47 Europe/Berlin] Is email: no
+[13-Jan-2025 07:41:47 Europe/Berlin] Login attempt - Username/Email: sss
+[13-Jan-2025 07:41:47 Europe/Berlin] Querying by username: sss
+[13-Jan-2025 07:43:16 Europe/Berlin] Login request received
+[13-Jan-2025 07:43:16 Europe/Berlin] Raw input: {"username":"sss","password":"aaaaaa"}
+[13-Jan-2025 07:43:16 Europe/Berlin] Decoded data: Array
+(
+    [username] => sss
+    [password] => aaaaaa
+)
+
+[13-Jan-2025 07:43:16 Europe/Berlin] Attempting login for username: sss
+[13-Jan-2025 07:43:16 Europe/Berlin] Database connection successful
+[13-Jan-2025 07:43:16 Europe/Berlin] Is email: no
+[13-Jan-2025 07:43:16 Europe/Berlin] Login attempt - Username/Email: sss
+[13-Jan-2025 07:43:16 Europe/Berlin] Querying by username: sss
+[13-Jan-2025 07:43:16 Europe/Berlin] Query result: No user found
+[13-Jan-2025 07:43:16 Europe/Berlin] Login error: Invalid username or password
+[13-Jan-2025 07:43:16 Europe/Berlin] Session state during error: Array
+(
+)
+
+[13-Jan-2025 07:43:47 Europe/Berlin] Raw input: {"username":"arissa","email":"arysamht@gmail.com","password":"12345"}
+[13-Jan-2025 07:43:47 Europe/Berlin] Decoded data: Array
+(
+    [username] => arissa
+    [email] => arysamht@gmail.com
+    [password] => 12345
+)
+
+[13-Jan-2025 07:43:47 Europe/Berlin] Signup error: Password must be at least 6 characters long
+[13-Jan-2025 07:43:47 Europe/Berlin] Stack trace: #0 {main}
+[13-Jan-2025 07:43:49 Europe/Berlin] Raw input: {"username":"arissa","email":"arysamht@gmail.com","password":"123456"}
+[13-Jan-2025 07:43:49 Europe/Berlin] Decoded data: Array
+(
+    [username] => arissa
+    [email] => arysamht@gmail.com
+    [password] => 123456
+)
+
+[13-Jan-2025 07:43:49 Europe/Berlin] Database connection successful
+[13-Jan-2025 07:43:49 Europe/Berlin] Account created successfully for username: arissa
+[13-Jan-2025 07:43:56 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 07:43:56 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 07:44:01 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 07:44:01 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 07:53:31 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 07:53:31 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 08:54:08 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 08:54:08 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 08:54:23 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 08:54:23 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 08:54:23 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 08:54:38 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 08:54:38 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 08:54:50 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 08:54:50 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 08:54:50 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:01:01 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:01:01 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:01:22 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:01:22 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:01:22 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:01:36 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:01:36 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:01:48 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:01:48 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:01:48 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:38:37 Europe/Berlin] Session check - Current session data: Array
+(
+)
+
+[13-Jan-2025 09:38:37 Europe/Berlin] Session check failed - Invalid session data: Array
+(
+)
+
+[13-Jan-2025 09:38:59 Europe/Berlin] Login request received
+[13-Jan-2025 09:39:02 Europe/Berlin] Login request received
+[13-Jan-2025 09:39:03 Europe/Berlin] Login request received
+[13-Jan-2025 09:39:14 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:39:14 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:39:34 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:39:34 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:39:50 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:39:50 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:39:50 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:43:05 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:43:05 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:43:16 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:43:16 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:43:16 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:43:25 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:43:25 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:43:30 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:43:30 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:43:46 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:43:46 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:43:46 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:43:51 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:43:51 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 09:44:06 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:44:06 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 09:44:06 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 10:17:59 Europe/Berlin] Login request received
+[13-Jan-2025 12:20:47 Europe/Berlin] Login request received
+[13-Jan-2025 12:20:47 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:20:47 Europe/Berlin] Session check passed for user: arissa
+[13-Jan-2025 12:21:55 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:21:55 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:22:09 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:22:09 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:22:09 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:22:09 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:22:09 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:22:35 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:22:35 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:22:49 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:22:49 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:22:49 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:22:49 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:22:49 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:22:59 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:22:59 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:23:15 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:23:15 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:23:15 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:23:15 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:23:15 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:29:49 Europe/Berlin] Session check - Current session data: Array
+(
+)
+
+[13-Jan-2025 12:29:49 Europe/Berlin] Session check failed - No user_id in session: Array
+(
+)
+
+[13-Jan-2025 12:29:54 Europe/Berlin] Login request received
+[13-Jan-2025 12:29:55 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:29:55 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:32:48 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:32:48 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:35:03 Europe/Berlin] Session check - Current session data: Array
+(
+)
+
+[13-Jan-2025 12:35:03 Europe/Berlin] Session check failed - No user_id in session: Array
+(
+)
+
+[13-Jan-2025 12:35:08 Europe/Berlin] Login request received
+[13-Jan-2025 12:35:08 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 12:35:08 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 12:46:23 Europe/Berlin] Login request received
+[13-Jan-2025 13:01:15 Europe/Berlin] Session check - Current session data: Array
+(
+)
+
+[13-Jan-2025 13:01:15 Europe/Berlin] Session check failed - No user_id in session: Array
+(
+)
+
+[13-Jan-2025 13:01:20 Europe/Berlin] Login request received
+[13-Jan-2025 13:09:24 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:09:24 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:09:31 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:09:31 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:09:45 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:09:45 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:09:45 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:09:50 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:09:50 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:10:02 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:10:02 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:10:02 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:12:48 Europe/Berlin] Session check - Current session data: Array
+(
+)
+
+[13-Jan-2025 13:12:48 Europe/Berlin] Session check failed - No user_id in session: Array
+(
+)
+
+[13-Jan-2025 13:12:59 Europe/Berlin] Login request received
+[13-Jan-2025 13:12:59 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:12:59 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:13:13 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:13:13 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:13:34 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:13:34 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:13:34 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:13:34 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:13:34 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:13:37 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:13:37 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:13:52 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:13:52 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:13:52 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:13:52 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:13:52 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:14:18 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:14:18 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:14:46 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:14:46 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:14:46 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:14:47 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:14:47 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:14:50 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:14:50 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:15:06 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:15:06 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:15:06 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:15:06 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:15:06 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:17:08 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:17:08 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:17:50 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:17:50 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:21:24 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:21:24 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:21:46 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:21:46 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:22:01 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:22:01 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:22:01 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:22:01 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:22:01 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:22:14 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:22:14 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:22:28 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:22:28 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:22:28 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:22:28 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:22:28 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:22:37 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:22:37 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:22:51 Europe/Berlin] Session status at start: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:22:51 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:22:51 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:22:51 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:22:51 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:23:01 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:23:01 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:23:32 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:23:32 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:23:44 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:23:44 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:24:48 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:24:48 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:24:59 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:24:59 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:25:06 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:25:06 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:25:30 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:25:30 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:27:05 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:27:05 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:27:05 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:27:05 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:27:09 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:27:09 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:27:10 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:27:10 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:27:10 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [logged_in] => 1
+)
+
+[13-Jan-2025 13:27:10 Europe/Berlin] Session check passed for user: 1
+[13-Jan-2025 13:29:09 Europe/Berlin] Session check - Current session data: Array
+(
+)
+
+[13-Jan-2025 13:29:09 Europe/Berlin] Session check failed - No user_id in session: Array
+(
+)
+
+[13-Jan-2025 13:29:15 Europe/Berlin] Session check - Current session data: Array
+(
+    [user_id] => 1
+    [username] => arissa
+    [name] => arissa
+)
+
+[13-Jan-2025 13:29:15 Europe/Berlin] Session check passed for user: 1

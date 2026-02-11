@@ -1,0 +1,16 @@
+        .muscle-group {
+            cursor: pointer;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            background-color: #f8f9fa;
+            transition: background-color 0.3s;
+        }
+
+        .muscle-group.active {
+            background-color: #e9ecef;
+        }
+
+        .muscle-group.completed {
+            background-color: #d1e7dd;
+        }

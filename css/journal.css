@@ -1,0 +1,160 @@
+        .journal-entry {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .journal-entry:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        #journalForm {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .mood-btn {
+            border-radius: 50%;
+            width: 90px;
+            height: 90px;
+            margin: 0 12px 12px 0;
+            padding: 8px 0;
+            transition: all 0.3s ease;
+            border-width: 2px;
+            font-weight: 500;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background-color: white;
+        }
+
+        .mood-btn i {
+            font-size: 32px;
+            margin-bottom: 6px;
+            line-height: 1;
+        }
+
+        .mood-btn small {
+            font-size: 12px;
+            line-height: 1;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        .mood-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .mood-btn.active {
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Specific colors for each mood */
+        .mood-btn[data-mood="Happy"] {
+            border-color: #ffc107;
+            color: #b78502;
+        }
+        .mood-btn[data-mood="Happy"]:hover,
+        .mood-btn[data-mood="Happy"].active {
+            background-color: #fff3cd;
+            border-color: #ffc107;
+            color: #b78502;
+        }
+
+        .mood-btn[data-mood="Calm"] {
+            border-color: #20c997;
+            color: #157254;
+        }
+        .mood-btn[data-mood="Calm"]:hover,
+        .mood-btn[data-mood="Calm"].active {
+            background-color: #d2f4ea;
+            border-color: #20c997;
+            color: #157254;
+        }
+
+        .mood-btn[data-mood="Sad"] {
+            border-color: #6c757d;
+            color: #495057;
+        }
+        .mood-btn[data-mood="Sad"]:hover,
+        .mood-btn[data-mood="Sad"].active {
+            background-color: #e9ecef;
+            border-color: #6c757d;
+            color: #495057;
+        }
+
+        .mood-btn[data-mood="Anxious"] {
+            border-color: #dc3545;
+            color: #842029;
+        }
+        .mood-btn[data-mood="Anxious"]:hover,
+        .mood-btn[data-mood="Anxious"].active {
+            background-color: #f8d7da;
+            border-color: #dc3545;
+            color: #842029;
+        }
+
+        .mood-btn[data-mood="Angry"] {
+            border-color: #fd7e14;
+            color: #984c0c;
+        }
+        .mood-btn[data-mood="Angry"]:hover,
+        .mood-btn[data-mood="Angry"].active {
+            background-color: #ffe5d0;
+            border-color: #fd7e14;
+            color: #984c0c;
+        }
+
+        .journal-entry .date {
+            color: #6c757d;
+            font-size: 0.9em;
+            margin-bottom: 12px;
+        }
+        .journal-entry .title {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .journal-entry .content {
+            color: #4a5568;
+            line-height: 1.6;
+            white-space: pre-line;
+            margin-bottom: 15px;
+        }
+        .journal-entry .mood {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            background-color: #e9ecef;
+            color: #495057;
+        }
+        .form-control {
+            border-radius: 10px;
+            padding: 12px;
+            border: 1px solid #dee2e6;
+        }
+        .form-control:focus {
+            box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+        }
+        textarea.form-control {
+            min-height: 150px;
+            resize: vertical;
+        }
+        .btn-primary {
+            border-radius: 10px;
+            padding: 12px 24px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(13, 110, 253, 0.3);
+        }

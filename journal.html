@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal - MindWellness</title>
+    <link rel="icon" type="image/png" href="assets/fav.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/journal.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center" href="dashboard.html">
+                <i class="bi bi-heart-pulse-fill me-2"></i>
+                MindWellness
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="dashboard.html">
+                            <i class="bi bi-grid-fill me-2"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" href="journal.html">
+                            <i class="bi bi-journal-text me-2"></i>
+                            Journal
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="activities.html">
+                            <i class="bi bi-list-check me-2"></i>
+                            Activities
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="chatbot.html">
+                            <i class="bi bi-chat-dots-fill me-2"></i>
+                            Chat Support
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="d-flex align-items-center">
+                    <a class="nav-link d-flex align-items-center" href="#" id="logoutBtn">
+                        <i class="bi bi-box-arrow-right me-2"></i>
+                        Logout
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-4">
+        <!-- New Journal Entry -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h4 class="card-title mb-4">
+                    <i class="bi bi-journal-text me-2"></i>
+                    Write a Journal Entry
+                </h4>
+                <form id="journalForm">
+                    <div class="mb-3">
+                        <label for="entryTitle" class="form-label">Title</label>
+                        <input type="text" class="form-control" id="entryTitle" placeholder="Give your entry a title" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label">How are you feeling?</label>
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <button type="button" class="btn btn-outline-primary mood-btn" data-mood="Happy">
+                                <i class="bi bi-emoji-smile-fill"></i>
+                                <small>Happy</small>
+                            </button>
+                            <button type="button" class="btn btn-outline-primary mood-btn" data-mood="Calm">
+                                <i class="bi bi-emoji-neutral-fill"></i>
+                                <small>Calm</small>
+                            </button>
+                            <button type="button" class="btn btn-outline-primary mood-btn" data-mood="Sad">
+                                <i class="bi bi-emoji-frown-fill"></i>
+                                <small>Sad</small>
+                            </button>
+                            <button type="button" class="btn btn-outline-primary mood-btn" data-mood="Anxious">
+                                <i class="bi bi-emoji-dizzy-fill"></i>
+                                <small>Anxious</small>
+                            </button>
+                            <button type="button" class="btn btn-outline-primary mood-btn" data-mood="Angry">
+                                <i class="bi bi-emoji-angry-fill"></i>
+                                <small>Angry</small>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="entryContent" class="form-label">What's on your mind?</label>
+                        <textarea class="form-control" id="entryContent" rows="4" placeholder="Write your thoughts here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save me-2"></i>
+                        Save Entry
+                    </button>
+                    <div id="submitAlert" style="display: none;"></div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Journal Entries -->
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title mb-4">
+                    <i class="bi bi-journals me-2"></i>
+                    Your Journal Entries
+                </h4>
+                <div id="journalEntries">
+                    <!-- Journal entries will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // --------------------- Demo Mode: Journal ---------------------
+
+    // Format date nicely
+    function formatDate(dateString) {
+        const date = new Date(dateString);
+        return date.toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+    }
+
+    // Get mood icon
+    function getMoodIcon(mood) {
+        const icons = {
+            'Happy': 'bi-emoji-smile',
+            'Calm': 'bi-emoji-neutral',
+            'Sad': 'bi-emoji-frown',
+            'Anxious': 'bi-emoji-dizzy',
+            'Angry': 'bi-emoji-angry'
+        };
+        return icons[mood] || 'bi-emoji-neutral';
+    }
+
+    // Load journal entries from localStorage
+    function loadJournalEntries() {
+        const entries = JSON.parse(localStorage.getItem('demoJournalEntries')) || [
+            { title: 'Feeling Great', content: 'Had a productive day!', mood: 'Happy', created_at: new Date() },
+            { title: 'A Bit Anxious', content: 'Work deadlines stress me out.', mood: 'Anxious', created_at: new Date() }
+        ];
+
+        const entriesContainer = document.getElementById('journalEntries');
+        entriesContainer.innerHTML = entries.map(entry => `
+            <div class="journal-entry">
+                <div class="date"><i class="bi bi-calendar3 me-2"></i>${formatDate(entry.created_at)}</div>
+                <div class="title">${entry.title}</div>
+                <div class="content">${entry.content}</div>
+                ${entry.mood ? `<div class="mood"><i class="bi ${getMoodIcon(entry.mood)} me-2"></i>Feeling ${entry.mood}</div>` : ''}
+            </div>
+        `).join('');
+    }
+
+    // Save a new journal entry
+    function saveJournalEntry(event) {
+        event.preventDefault();
+
+        const title = document.getElementById('entryTitle').value.trim();
+        const content = document.getElementById('entryContent').value.trim();
+        const alertElement = document.getElementById('submitAlert');
+
+        if (!title || !content) {
+            alertElement.textContent = 'Please fill in both title and content';
+            alertElement.className = 'alert alert-danger';
+            alertElement.style.display = 'block';
+            return;
+        }
+
+        const entries = JSON.parse(localStorage.getItem('demoJournalEntries')) || [];
+        entries.unshift({
+            title,
+            content,
+            mood: selectedMood,
+            created_at: new Date()
+        });
+
+        localStorage.setItem('demoJournalEntries', JSON.stringify(entries));
+
+        // Clear form
+        document.getElementById('entryTitle').value = '';
+        document.getElementById('entryContent').value = '';
+        selectedMood = null;
+        document.querySelectorAll('.mood-btn').forEach(btn => btn.classList.remove('active'));
+
+        // Show success message
+        alertElement.textContent = 'Journal entry saved!';
+        alertElement.className = 'alert alert-success';
+        alertElement.style.display = 'block';
+
+        // Reload entries
+        loadJournalEntries();
+    }
+
+    // Handle mood selection
+    let selectedMood = null;
+    document.querySelectorAll('.mood-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            selectedMood = this.dataset.mood;
+        });
+    });
+
+    // Handle form submission
+    document.getElementById('journalForm').addEventListener('submit', saveJournalEntry);
+
+    // Handle logout (demo just clears form, no auth)
+    document.getElementById('logoutBtn').addEventListener('click', function() {
+        localStorage.removeItem('demoJournalEntries');
+        alert('Demo cleared! Reloading page...');
+        window.location.reload();
+    });
+
+    // Initialize entries on page load
+    document.addEventListener('DOMContentLoaded', loadJournalEntries);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+        .activity-card {
+            transition: transform 0.2s;
+        }
+        
+        .activity-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .activity-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }

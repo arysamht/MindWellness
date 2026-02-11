@@ -1,0 +1,29 @@
+        .coloring-canvas {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            touch-action: none;
+        }
+
+        .color-picker {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .color-option {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+            border: 2px solid #fff;
+            box-shadow: 0 0 0 1px #ddd;
+        }
+
+        .color-option.selected {
+            border: 2px solid #000;
+        }
+
+        .brush-size {
+            width: 100px;
+        }

@@ -1,0 +1,132 @@
+/* Common Component Styles */
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+    background-color: white;
+}
+
+.card-title {
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+/* Progress Bar */
+.progress {
+    height: 0.75rem;
+    background-color: rgba(139, 94, 153, 0.1);
+    border-radius: 1rem;
+}
+
+.progress-bar {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    transition: width 0.3s ease;
+}
+
+/* Common Button Styles */
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+/* Background Colors */
+.bg-primary { background-color: var(--primary-color) !important; }
+.bg-success { background-color: var(--success-color) !important; }
+.bg-warning { background-color: var(--warning-color) !important; }
+.bg-info { background-color: #0dcaf0 !important; }
+
+/* Badge Styles */
+.badge {
+    padding: 0.5em 1em;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+/* Progress Bar Styles */
+.progress-alt {
+    height: 1rem;
+    background-color: #e9ecef;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    overflow: hidden;
+}
+
+.progress-bar-alt {
+    transition: width 0.6s ease;
+}
+
+/* Card Styles */
+.card-alt {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+    background-color: white;
+}
+
+.card-title-alt {
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+/* Article Card Styles */
+.article-card {
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.article-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.article-card .card-body {
+    padding: 20px;
+}
+
+.article-card .badge {
+    margin-bottom: 0.75rem;
+}
+
+.article-card h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+/* Animation Classes */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
