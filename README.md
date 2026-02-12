@@ -5,6 +5,28 @@ MindWellness is a frontend mental wellness web application designed to help user
 ## Live Demo
 🔗 https://arysamht.github.io/MindWellness/
 
+## 
+<p float="left">
+  <img src="assets/dash.png" alt="Dashboard" width="45%" style="margin-right:5px;"/><br>
+  <b>Dashboard</b>
+</p>
+
+<p float="left">
+  <img src="assets/journal.png" alt="Journal" width="45%" style="margin-right:5px;"/><br>
+  <b>Journal</b>
+</p>
+
+<p float="left">
+  <img src="assets/color.png" alt="Mindful Coloring" width="45%" style="margin-right:5px;"/><br>
+  <b>Mindful Coloring</b>
+</p>
+
+<p float="left">
+  <img src="assets/chatbot.png" alt="Chatbot" width="45%" style="margin-right:5px;"/><br>
+  <b>Chatbot</b>
+</p>
+
+
 ## Features
 - Depression, Anxiety, and Stress self-assessment
 - Severity-based results (Mild, Moderate, Severe, Extremely Severe)
