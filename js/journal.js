@@ -148,3 +148,109 @@ function openNewJournalEntry() {
     const modal = new bootstrap.Modal(document.getElementById('journalModal'));
     modal.show();
 }
+
+// Format date nicely
+function formatDate(dateString) {
+    const date = new Date(dateString);
+    return date.toLocaleDateString('en-US', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+    });
+}
+
+// Get mood icon
+function getMoodIcon(mood) {
+    const icons = {
+        'Happy': 'bi-emoji-smile',
+        'Calm': 'bi-emoji-neutral',
+        'Sad': 'bi-emoji-frown',
+        'Anxious': 'bi-emoji-dizzy',
+        'Angry': 'bi-emoji-angry'
+    };
+    return icons[mood] || 'bi-emoji-neutral';
+}
+
+// Load journal entries from localStorage
+function loadJournalEntries() {
+    const entries = JSON.parse(localStorage.getItem('demoJournalEntries')) || [
+        { title: 'Feeling Great', content: 'Had a productive day!', mood: 'Happy', created_at: new Date() },
+        { title: 'A Bit Anxious', content: 'Work deadlines stress me out.', mood: 'Anxious', created_at: new Date() }
+    ];
+
+    const entriesContainer = document.getElementById('journalEntries');
+    entriesContainer.innerHTML = entries.map(entry => `
+        <div class="journal-entry">
+            <div class="date"><i class="bi bi-calendar3 me-2"></i>${formatDate(entry.created_at)}</div>
+            <div class="title">${entry.title}</div>
+            <div class="content">${entry.content}</div>
+            ${entry.mood ? `<div class="mood"><i class="bi ${getMoodIcon(entry.mood)} me-2"></i>Feeling ${entry.mood}</div>` : ''}
+        </div>
+    `).join('');
+}
+
+// Save a new journal entry
+function saveJournalEntry(event) {
+    event.preventDefault();
+
+    const title = document.getElementById('entryTitle').value.trim();
+    const content = document.getElementById('entryContent').value.trim();
+    const alertElement = document.getElementById('submitAlert');
+
+    if (!title || !content) {
+        alertElement.textContent = 'Please fill in both title and content';
+        alertElement.className = 'alert alert-danger';
+        alertElement.style.display = 'block';
+        return;
+    }
+
+    const entries = JSON.parse(localStorage.getItem('demoJournalEntries')) || [];
+    entries.unshift({
+        title,
+        content,
+        mood: selectedMood,
+        created_at: new Date()
+    });
+
+    localStorage.setItem('demoJournalEntries', JSON.stringify(entries));
+
+    // Clear form
+    document.getElementById('entryTitle').value = '';
+    document.getElementById('entryContent').value = '';
+    selectedMood = null;
+    document.querySelectorAll('.mood-btn').forEach(btn => btn.classList.remove('active'));
+
+    // Show success message
+    alertElement.textContent = 'Journal entry saved!';
+    alertElement.className = 'alert alert-success';
+    alertElement.style.display = 'block';
+
+    // Reload entries
+    loadJournalEntries();
+}
+
+// Handle mood selection
+let selectedMood = null;
+document.querySelectorAll('.mood-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        selectedMood = this.dataset.mood;
+    });
+});
+
+// Handle form submission
+document.getElementById('journalForm').addEventListener('submit', saveJournalEntry);
+
+// Handle logout (demo just clears form, no auth)
+document.getElementById('logoutBtn').addEventListener('click', function() {
+    localStorage.removeItem('demoJournalEntries');
+    alert('Demo cleared! Reloading page...');
+    window.location.reload();
+});
+
+// Initialize entries on page load
+document.addEventListener('DOMContentLoaded', loadJournalEntries);

@@ -21,7 +21,7 @@
                 <i class="bi bi-heart-pulse-fill me-2"></i>
                 MindWellness
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -45,7 +45,7 @@
     <div class="container mt-5">
         <div class="row align-items-center">
             <div class="col-md-6 fade-in">
-                <h1 class="display-4 fw-bold text-primary mb-4">Your Journey to Better Mental Health Starts Here</h1>
+                <h1 class="display-4 fw-bold text-muted mb-4">Your Journey to Better Mental Health Starts Here</h1>
                 <p class="lead mb-4">Experience a personalized approach to mental wellness with interactive activities, professional support, and progress tracking.</p>
                 <button class="btn btn-primary btn-lg me-3" data-bs-toggle="modal" data-bs-target="#signupModal">
                     Get Started
@@ -223,10 +223,10 @@
 
         loginError.classList.add('d-none');
 
-        // ✅ store current user for dashboard
+        // store current user for dashboard
         localStorage.setItem('currentUser', JSON.stringify(user));
 
-        // ✅ redirect to dashboard
+        // redirect to dashboard
         window.location.href = 'dashboard.html';
     });
     </script>

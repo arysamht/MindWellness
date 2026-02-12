@@ -1,5 +1,3 @@
-/* DASS Assessment Styles - Matching Dashboard Design */
-
 :root {
     --primary-color: #8B5E99;
     --primary-hover: #7B4589;
@@ -219,50 +217,6 @@ body {
 .d-flex.justify-content-between {
     gap: 1rem;
     margin-top: 2rem;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .card {
-        border-radius: 10px;
-    }
-    
-    .card-title {
-        font-size: 1.1rem;
-    }
-    
-    .question-item {
-        margin-bottom: 2rem;
-    }
-    
-    .btn-outline-primary {
-        padding: 0.5rem 0.75rem;
-        font-size: 0.9rem;
-    }
-    
-    .d-flex.justify-content-between {
-        flex-direction: column;
-    }
-    
-    .d-flex.justify-content-between button {
-        width: 100%;
-    }
-    
-    .rating-scale {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.4rem;
-        padding: 0.6rem;
-        font-size: 0.8rem;
-    }
-    
-    .rating-scale > div {
-        padding: 0.3rem 0.4rem;
-    }
-    
-    .alert-info {
-        font-size: 0.9rem;
-        padding: 0.8rem;
-    }
 }
 
 /* Background and General Layout */
